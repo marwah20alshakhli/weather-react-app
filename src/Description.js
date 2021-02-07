@@ -30,7 +30,10 @@ export default function Search(props) {
   let form = (
     <form onSubmit={searchCity}>
       <input type="text" placeholder="search a city" onChange={updateCity} />
-      <input type="submit" value="Search" />
+      <input type="submit" value="Search" id="search-button"/>
+      <button type="button" id="current-location">
+        Current location
+      </button>
     </form>
   );
   if (load) {

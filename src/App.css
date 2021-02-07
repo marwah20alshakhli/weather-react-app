@@ -30,6 +30,10 @@ li {
   color: #aeaeaf;
 }
 
+p {
+  padding: 0px 10px;
+}
+
 a {
   cursor: default;
   color: #151e3d;
@@ -39,22 +43,27 @@ a:hover {
   text-decoration: none;
 }
 
-button {
-  height: 50px;
-}
-
 #city-input {
   height: 50px;
 }
 
 #search-button {
+  margin: 5px;
   background-color: #c82333;
   color: white;
   box-shadow: 0px;
   border: 0px;
   border-radius: 4px;
   padding: 6px 12px 10px;
-  height: 50px;
+}
+
+#current-location {
+  background-color: #c82333;
+  color: white;
+  box-shadow: 0px;
+  border: 0px;
+  border-radius: 4px;
+  padding: 6px 12px 10px;
 }
 
 #humidity {
@@ -99,4 +108,3 @@ button {
   box-shadow: 2px 1px 8px;
   width: 100%;
 }
-

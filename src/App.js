@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 import Description from "./Description";
 import Forecast from "./Forecast";
 import "./App.css";
@@ -15,7 +14,6 @@ export default function App() {
                 <div class="col">
                   <h1 id="city-name">Ostend</h1>
                   <Description />
-                  <Button />
                 </div>
 
                 <div className="col">
