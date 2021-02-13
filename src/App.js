@@ -1,6 +1,7 @@
 import React from "react";
 import Description from "./Description";
 import Forecast from "./Forecast";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
 export default function App() {
